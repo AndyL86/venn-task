@@ -1,11 +1,12 @@
 #hero-section {
-    background-color: #03363D;
+	background-color: #03363D;
 }
 
 .carousel {
-    margin-bottom: 0;
+	margin-bottom: 0;
 	padding: 0 40px 30px 40px;
 }
+
 /* Changes the position of the indicators */
 .carousel-indicators {
 	right: 50%;
@@ -13,10 +14,26 @@
 	bottom: 0px;
 	margin-right: -19px;
 }
+
 /* Changes the colour of the indicators */
 .carousel-indicators li {
 	background: #c0c0c0;
 }
+
 .carousel-indicators .active {
-background: #333333;
+	background: #333333;
+}
+
+.img {
+	width: 80%;
+	z-index: 0;
+}
+
+.text-over-img {
+	z-index: 1;
+	font-size: 1.2em margin-top: -100px;
+}
+
+.roles-bg {
+	background-color: #F7F4EF;
 }
