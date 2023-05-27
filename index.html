@@ -16,15 +16,48 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 split left">
                     <img src="assets/images/venn-logo.png" alt="">
                 </div>
-                <div class="col-8">
-                    <h1>We Listen.</h1>
-                    <h3>People-focused recruitment working with some of the best companies in Financial Services and
-                        Property</h3>
+                <div class="col-8 split right">
+                    <nav>
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><i class="fas fa-search"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-file-upload"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-phone fa-flip-horizontal"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">
+                                    <div class="container" onclick="myFunction(this)">
+                                        <div class="bar1"></div>
+                                        <div class="bar2"></div>
+                                        <div class="bar3"></div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="row">
+                        <div class="col-6 my-auto">
+                            <div class="centered">
+                                <h1>We Listen.</h1>
+                                <h3>People-focused recruitment working with some of the best companies in Financial
+                                    Services
+                                    and
+                                    Property</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 my-4">
+                            <img class="hero-img" src="assets/images/riccardo-oliva.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,7 +66,7 @@
     <section id="hero-section">
         <div class="row">
             <div class="col-md-6 d-flex align-items-center">
-                <div class="my-3">
+                <div class="mx-5 text-white">
                     <h3>Transparent Recruitment</h3>
                     <p>Using the latest recruitment
                         technology and talent attraction
@@ -50,35 +83,50 @@
                 <img class="img-fluid" src="assets/images/malik-skydsgaard.png" alt="">
             </div>
         </div>
+    </section>
 
-        <div class="container">
-            <div class="row">
-                <h3>Experts in our Industries</h3>
-                <div class="card-group">
-                    <div class="card">
-                        <img src="assets/images/marina-reizberg.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                        </div>
+    <div class="container">
+        <div class="row py-5">
+            <h3>Experts in our Industries</h3>
+            <div class="card-group my-4">
+                <div class="card mx-3">
+                    <img src="assets/images/marina-reizberg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Financial Services</h5>
+                        <p class="card-text">Paragragh Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            gravida odio at semper semper. In sagittis felis non pharetra dapibus.
+                            Maecenas in laoreet justo, at maximus nibh.</p>
+                        <ul>
+                            <li>Sub-Specialism 1</li>
+                            <li>Sub-Specialism 2</li>
+                            <li>Sub-Specialism 3</li>
+                            <li>Sub-Specialism 4</li>
+                        </ul>
                     </div>
-                    <div class="card">
-                        <img src="assets/images/ricardo-gomez-angel.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
-                        </div>
+                </div>
+                <div class="card mx-3">
+                    <img src="assets/images/ricardo-gomez-angel.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Property</h5>
+                        <p class="card-text">Paragragh Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                            gravida odio at semper semper. In sagittis felis non pharetra dapibus.
+                            Maecenas in laoreet justo, at maximus nibh</p>
+                            <ul>
+                                <li>Sub-Specialism 1</li>
+                                <li>Sub-Specialism 2</li>
+                                <li>Sub-Specialism 3</li>
+                                <li>Sub-Specialism 4</li>
+                                <li>Sub-Specialism 5</li>
+                            </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <section>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-fluid" src="assets/images/j-lee-bg.png" alt="">
+                <img class="img-fluid grey-img" src="assets/images/j-lee-bg.png" alt="">
             </div>
             <div class="col-md-6 d-flex align-items-center">
                 <div class="my-3">
@@ -93,15 +141,15 @@
         </div>
     </section>
     <section>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-md-6">
-                <img class="img-fluid" src="assets/images/group-233.png" alt="">
+                <img class="img-fluid pl-5" src="assets/images/group-233.png" alt="">
             </div>
             <div class="col-md-6">
                 <div>
-                    <img src="assets/images/group-234.png" alt="">
+                    <img class="video-img" src="assets/images/group-234.png" alt="">
                 </div>
-                <div class="my-3">
+                <div class="companies-txt">
                     <h3>Working with the best companies</h3>
                     <p>No nonsense, no silly Recruitment
                         Sales tactics, just a Trusted Partner
