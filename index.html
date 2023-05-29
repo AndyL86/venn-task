@@ -11,17 +11,20 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen:wght@700&display=swap" rel="stylesheet">
     <title>Venn Task</title>
 </head>
 
 <body>
     <header>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 split left">
-                    <img src="assets/images/venn-logo.png" alt="">
+            <div class="row hero-bg">
+                <div class="col-3 split left">
+                    <img class="nav-logo" src="assets/images/venn-logo.png" alt="">
                 </div>
-                <div class="col-8 split right">
+                <div class="col-9 split right">
                     <nav>
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
@@ -44,14 +47,17 @@
                             </li>
                         </ul>
                     </nav>
-                    <div class="row">
-                        <div class="col-6 my-auto">
-                            <div class="centered">
-                                <h1>We Listen.</h1>
-                                <h3>People-focused recruitment working with some of the best companies in Financial
-                                    Services
-                                    and
-                                    Property</h3>
+                    <div class="row pt-3">
+                        <div class="col-6 mt-5">
+                            <div class="text-right">
+                                <hr class="hero-bar">
+                                <h1 class="pt-2">We Listen.</h1>
+                                <p class="ml-4">People-focused recruitment working with some of the best companies in Financial
+                                    Services and Property</p>
+                                    <form class="form-inline justify-content-end">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search for your new role" aria-label="Search">
+                                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                                      </form>
                             </div>
                         </div>
                         <div class="col-6 my-4">
@@ -66,8 +72,9 @@
     <section id="hero-section">
         <div class="row">
             <div class="col-md-6 d-flex align-items-center">
-                <div class="mx-5 text-white">
+                <div class="recruit-text text-white">
                     <h3>Transparent Recruitment</h3>
+                    <hr class="recruit-bar">
                     <p>Using the latest recruitment
                         technology and talent attraction
                         methods, we build long-lasting
@@ -77,6 +84,7 @@
                         Come and see why so many
                         companies and candidates Trust
                         Integro Partners</p>
+                    <a href="">About us<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -96,6 +104,7 @@
                         <p class="card-text">Paragragh Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                             gravida odio at semper semper. In sagittis felis non pharetra dapibus.
                             Maecenas in laoreet justo, at maximus nibh.</p>
+                            <a href="">Call our Financial Team<i class="fas fa-phone fa-flip-horizontal"></i></a>
                         <ul>
                             <li>Sub-Specialism 1</li>
                             <li>Sub-Specialism 2</li>
@@ -111,13 +120,14 @@
                         <p class="card-text">Paragragh Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                             gravida odio at semper semper. In sagittis felis non pharetra dapibus.
                             Maecenas in laoreet justo, at maximus nibh</p>
-                            <ul>
-                                <li>Sub-Specialism 1</li>
-                                <li>Sub-Specialism 2</li>
-                                <li>Sub-Specialism 3</li>
-                                <li>Sub-Specialism 4</li>
-                                <li>Sub-Specialism 5</li>
-                            </ul>
+                            <a href="">Call our Property Team<i class="fas fa-phone fa-flip-horizontal"></i></a>
+                        <ul>
+                            <li>Sub-Specialism 1</li>
+                            <li>Sub-Specialism 2</li>
+                            <li>Sub-Specialism 3</li>
+                            <li>Sub-Specialism 4</li>
+                            <li>Sub-Specialism 5</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -129,13 +139,15 @@
                 <img class="img-fluid grey-img" src="assets/images/j-lee-bg.png" alt="">
             </div>
             <div class="col-md-6 d-flex align-items-center">
-                <div class="my-3">
-                    <h3>Placing top talent in the best roles</h3>
-                    <p>Lorem ipsum dolor sit amet,
+                <div class="talent-text">
+                    <h4>Placing top talent in the best roles</h4>
+                    <hr>
+                    <p class="mr-3">Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut
                         labore et dolore magna
                         aliqua. Ut enim ad minim veniam</p>
+                        <a href="">Visit the Candidate Hub<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -151,13 +163,15 @@
                 </div>
                 <div class="companies-txt">
                     <h3>Working with the best companies</h3>
-                    <p>No nonsense, no silly Recruitment
+                    <hr>
+                    <p class="mr-3">No nonsense, no silly Recruitment
                         Sales tactics, just a Trusted Partner
                         you can rely on. We pride ourselves
                         on acting as a Brand Ambassador,
                         representing you and your business
                         to attract the best talent and get an
                         edge on your competition.</p>
+                        <a href="">Explore our Client Zone<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -167,7 +181,7 @@
             <div class="row">
                 <div class="col-12">
                     <h3>Latest Roles</h3>
-                    <p>Recent opportunities across Finance, Mortgages and Property</p>
+                    <p>Recent opportunities across Finance, Mortgages and Property</p><a href="">View all roles<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="row">
@@ -206,7 +220,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1>We’re nothing like the Recruitment Agencies out there. But
+                    <h1 class="mb-5">We’re nothing like the Recruitment Agencies out there. But
                         don’t just take our word for it…
                     </h1>
                 </div>
@@ -214,23 +228,35 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                        <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
-                        <h3>Fully Responsive</h3>
-                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                        <img class="mb-3" src="assets/images/sav-logo.png" alt="" style="width:50px;height:auto;">
+                        <h4>Property Sector</h4>
+                        <p class="mb-0">“Blockquote Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore
+                            et dolore magna aliquyam erat, sed diam
+                            voluptua”</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                        <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                        <h3>Bootstrap 5 Ready</h3>
-                        <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                        <img class="mb-3" src="assets/images/thornley-logo.png" alt="" style="width:50px;height:auto;">
+                        <h4>Property Sector</h4>
+                        <p class="mb-0">“Blockquote Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore
+                            et dolore magna aliquyam erat, sed diam
+                            voluptua”</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                        <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
-                        <h3>Easy to Use</h3>
-                        <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                        <img class="mb-3" src="assets/images/fac-logo.png" alt="" style="width:90px;height:60px;">
+                        <h4>Finance Sector</h4>
+                        <p class="mb-0">“Blockquote Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore
+                            et dolore magna aliquyam erat, sed diam
+                            voluptua”</p>
                     </div>
                 </div>
             </div>
@@ -253,6 +279,7 @@
                         adipiscing elit. Aliquam
                         gravida odio at semper
                         semper…
+                    <a href="">Read more<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="card">
@@ -268,6 +295,7 @@
                         adipiscing elit. Aliquam
                         gravida odio at semper
                         semper…
+                    <a href="">Read more<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="card">
@@ -281,6 +309,7 @@
                         adipiscing elit. Aliquam
                         gravida odio at semper
                         semper…
+                    <a href="">Read more<i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

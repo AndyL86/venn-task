@@ -2,9 +2,30 @@
 	background-color: #03363D;
 }
 
+.hero-bar {
+	border: 1.5px solid #FC7753;
+	margin-left: 80px;
+    margin-bottom: 1rem;
+    padding-left: 30rem;
+    z-index: 1;
+    position: relative;
+}
+
 .hero-img {
 	width: 70%;
 	height: auto;
+}
+
+.hero-bg {
+	background-color: #F7F4EF;
+}
+
+h1, h3, h4 {
+	font-family: 'Oxygen', sans-serif;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .bar1,
@@ -15,6 +36,12 @@
 	background-color: #333;
 	margin: 6px 0;
 	transition: 0.4s;
+}
+
+.nav-logo {
+	max-width: 100px;
+	height: auto;
+	margin: 1.5rem 1.5rem 0;
 }
 
 /* Split the screen in half */
@@ -36,15 +63,22 @@
 	right: 0;
 }
 
-.centered {
-	position: inherit;
-	top: 50%;
-	text-align: center;
-}
-
 .video-img {
 	width: 100%;
 	height: auto;
+}
+
+
+.recruit-bar {
+	border: 0.5px solid #FFFFFF;
+}
+
+.recruit-text {
+	margin: 0 150px 0;
+}
+
+.talent-text {
+	margin: 0 80px 0;
 }
 
 .companies-txt {
