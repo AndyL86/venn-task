@@ -1,3 +1,20 @@
+h1, h3, h4, h5 {
+	font-family: 'Oxygen', sans-serif;
+}
+
+p, a {
+	font-family: 'Montserrat', sans-serif;
+	color: #293135;
+}
+
+ul {
+	list-style-type: none;
+  }
+
+li {
+	border-top-style: solid;
+}
+
 #hero-section {
 	background-color: #03363D;
 }
@@ -16,16 +33,12 @@
 	height: auto;
 }
 
-.hero-bg {
+.hero-bg, .card-bg {
 	background-color: #F7F4EF;
 }
 
-h1, h3, h4 {
-	font-family: 'Oxygen', sans-serif;
-}
-
-p {
-	font-family: 'Montserrat', sans-serif;
+.card-bg {
+	font-size: 11px;
 }
 
 .bar1,
@@ -81,8 +94,17 @@ p {
 	margin: 0 80px 0;
 }
 
-.companies-txt {
+.companies-text {
 	margin: 75px 50px 75px 100px;
+}
+
+.table-text {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.contact-team {
+	color: #F25D0E;
 }
 
 .carousel {
