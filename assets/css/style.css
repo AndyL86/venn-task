@@ -116,8 +116,12 @@ li {
 	margin-bottom: 2rem;
 }
 
-.contact-team {
+.orange-text {
 	color: #F25D0E;
+}
+
+.small-font {
+	font-size: 12px;
 }
 
 .carousel {
