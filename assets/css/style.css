@@ -1,15 +1,19 @@
-h1, h3, h4, h5 {
+h1,
+h3,
+h4,
+h5 {
 	font-family: 'Oxygen', sans-serif;
 }
 
-p, a {
+p,
+a {
 	font-family: 'Montserrat', sans-serif;
 	color: #293135;
 }
 
 ul {
 	list-style-type: none;
-  }
+}
 
 li {
 	border-top-style: solid;
@@ -22,10 +26,10 @@ li {
 .hero-bar {
 	border: 1.5px solid #FC7753;
 	margin-left: 80px;
-    margin-bottom: 1rem;
-    padding-left: 30rem;
-    z-index: 1;
-    position: relative;
+	margin-bottom: 1rem;
+	padding-left: 30rem;
+	z-index: 1;
+	position: relative;
 }
 
 .hero-img {
@@ -33,12 +37,17 @@ li {
 	height: auto;
 }
 
-.hero-bg, .card-bg {
+.hero-bg,
+.card-bg {
 	background-color: #F7F4EF;
 }
 
 .card-bg {
 	font-size: 11px;
+}
+
+.sub-select:hover {
+	background-color: #03363D;
 }
 
 .bar1,
@@ -55,6 +64,10 @@ li {
 	max-width: 100px;
 	height: auto;
 	margin: 1.5rem 1.5rem 0;
+}
+
+.nav-item {
+	border-top-style: none;
 }
 
 /* Split the screen in half */
@@ -141,4 +154,22 @@ li {
 
 .roles-bg {
 	background-color: #F7F4EF;
+}
+
+.roles-bar {
+	border: 0.1px solid #333333;
+}
+
+.link-text {
+	font-size: 11px;
+	color: #293135;
+}
+
+.icon-border {
+	border: 2px solid #FC7753;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
 }
