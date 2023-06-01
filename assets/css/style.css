@@ -46,6 +46,11 @@ li {
 	font-size: 11px;
 }
 
+.job-card:hover {
+	border-width: 1px;
+	border-color: #F25D0E;
+}
+
 .sub-select:hover {
 	background-color: #03363D;
 }
@@ -70,6 +75,9 @@ li {
 	border-top-style: none;
 }
 
+.nav-link {
+	color: #293135;
+}
 /* Split the screen in half */
 .split {
 	z-index: 1;
@@ -170,12 +178,14 @@ li {
 }
 
 .icon-border {
+	color: #F25D0E;
 	border: 2px solid #FC7753;
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
 	text-align: center;
 	vertical-align: middle;
+	padding-top: 10px;
 }
 
 .footer-text {
