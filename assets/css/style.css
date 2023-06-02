@@ -19,10 +19,63 @@ li {
 	border-top-style: groove;
 }
 
-#hero-section {
-	background-color: #03363D;
+.orange-text {
+	color: #F25D0E;
 }
 
+.link-text {
+	font-size: 11px;
+	color: #293135;
+}
+
+.icon-border {
+	color: #F25D0E;
+	border: 2px solid #FC7753;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+/* Nav */
+.bar1,
+.bar2,
+.bar3 {
+	width: 25px;
+	height: 3px;
+	background-color: #fdfcfc;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+.navbar-border {
+		color: #F25D0E;
+		border: 2px solid #FC7753;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		text-align: center;
+		vertical-align: middle;
+		padding-top: 10px;
+}
+
+.nav-logo {
+	max-width: 100px;
+	height: auto;
+	margin: 1.5rem 1.5rem 0;
+}
+
+.nav-item {
+	border-top-style: none;
+}
+
+.nav-link {
+	color: #293135;
+}
+
+/* Hero Section */
 .hero-bar {
 	border: 1.5px solid #FC7753;
 	margin-left: 80px;
@@ -42,42 +95,6 @@ li {
 	background-color: #F7F4EF;
 }
 
-.card-bg {
-	font-size: 11px;
-}
-
-.job-card:hover {
-	border-width: 1px;
-	border-color: #F25D0E;
-}
-
-.sub-select:hover {
-	background-color: #03363D;
-}
-
-.bar1,
-.bar2,
-.bar3 {
-	width: 35px;
-	height: 5px;
-	background-color: #333;
-	margin: 6px 0;
-	transition: 0.4s;
-}
-
-.nav-logo {
-	max-width: 100px;
-	height: auto;
-	margin: 1.5rem 1.5rem 0;
-}
-
-.nav-item {
-	border-top-style: none;
-}
-
-.nav-link {
-	color: #293135;
-}
 /* Split the screen in half */
 .split {
 	z-index: 1;
@@ -97,39 +114,63 @@ li {
 	right: 0;
 }
 
+/* Specialism Section */
+#specialism-section a {
+	color: #293135;
+}
+
+.sub-select:hover {
+	background-color: #03363D;
+	opacity: 0.1;
+}
+
+.card-bg {
+	font-size: 11px;
+}
+
+.job-card:hover {
+	border-width: 1px;
+	border-color: #F25D0E;
+}
+
 .video-img {
 	width: 100%;
 	height: auto;
 }
 
+.sub-border {
+	border-top-style: groove;
+}
 
-.recruit-bar {
+/* About Section */
+#about-section {
+	background-color: #03363D;
+}
+
+.about-bar {
 	border: 0.5px solid #FFFFFF;
 }
 
-.recruit-text {
+.about-text {
 	margin: 0 150px 0;
 }
 
-.talent-text {
-	margin: 0 80px 0;
-}
-
-.companies-text {
+/* Client Section */
+.client-text {
 	margin: 75px 50px 75px 100px;
 }
 
-.table-text {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+/* Roles Section */
+.roles-text {
+	margin: 0 80px 0;
 }
 
-.orange-text {
-	color: #F25D0E;
+.roles-bg {
+	background-color: #F7F4EF;
 }
 
-.small-font {
-	font-size: 12px;
+.roles-bar {
+	border: 0.1px solid #333333;
 }
 
 .carousel {
@@ -154,40 +195,18 @@ li {
 	background: #333333;
 }
 
-.img {
-	width: 80%;
-	z-index: 0;
+/* Testimonials Section */
+.small-font {
+	font-size: 12px;
 }
 
+/* Insights Section */
 .text-over-img {
 	z-index: 1;
 	font-size: 1.2em margin-top: -100px;
 }
 
-.roles-bg {
-	background-color: #F7F4EF;
-}
-
-.roles-bar {
-	border: 0.1px solid #333333;
-}
-
-.link-text {
-	font-size: 11px;
-	color: #293135;
-}
-
-.icon-border {
-	color: #F25D0E;
-	border: 2px solid #FC7753;
-	width: 35px;
-	height: 35px;
-	border-radius: 50%;
-	text-align: center;
-	vertical-align: middle;
-	padding-top: 10px;
-}
-
+/* Footer */
 .footer-text {
 	font-size: small;
 }
