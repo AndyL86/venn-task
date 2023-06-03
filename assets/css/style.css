@@ -43,22 +43,34 @@ li {
 .bar1,
 .bar2,
 .bar3 {
-	width: 25px;
-	height: 3px;
+	width: 15px;
+	height: 2px;
 	background-color: #fdfcfc;
-	margin: 6px 0;
+	margin: 4px 0;
 	transition: 0.4s;
 }
 
+.burger-bg {
+	background-color: #F25D0E;
+	width: 33px;
+    height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.container-nav {
+	padding-left: 10px;
+}
+
 .navbar-border {
-		color: #F25D0E;
-		border: 2px solid #FC7753;
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		text-align: center;
-		vertical-align: middle;
-		padding-top: 10px;
+	color: #F25D0E;
+	border: 2px solid #FC7753;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .nav-logo {
@@ -74,6 +86,26 @@ li {
 .nav-link {
 	color: #293135;
 }
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-phone {
+	font-size: x-small;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-phone {
+	display: block;
+  }
 
 /* Hero Section */
 .hero-bar {
@@ -94,6 +126,16 @@ li {
 .card-bg {
 	background-color: #F7F4EF;
 }
+
+input[type=search] {
+	border-radius: 20px;
+	border: 1px solid #636363;
+	color: #a0d18c;
+	width: 250px;
+	height: 30px;
+	padding-left: 10px;
+}
+
 
 /* Split the screen in half */
 .split {
@@ -142,6 +184,14 @@ li {
 	border-top-style: groove;
 }
 
+.icon-hover {
+	color: #F7F4EF;
+}
+
+.icon-hover:hover {
+	color: #F25D0E;
+}
+
 /* About Section */
 #about-section {
 	background-color: #03363D;
@@ -178,23 +228,6 @@ li {
 	padding: 0 40px 30px 40px;
 }
 
-/* Changes the position of the indicators */
-.carousel-indicators {
-	right: 50%;
-	top: auto;
-	bottom: 0px;
-	margin-right: -19px;
-}
-
-/* Changes the colour of the indicators */
-.carousel-indicators li {
-	background: #c0c0c0;
-}
-
-.carousel-indicators .active {
-	background: #333333;
-}
-
 /* Testimonials Section */
 .small-font {
 	font-size: 12px;
@@ -203,10 +236,23 @@ li {
 /* Insights Section */
 .text-over-img {
 	z-index: 1;
-	font-size: 1.2em margin-top: -100px;
+	font-size: 1.2em;
+	margin-top: -100px;
 }
 
 /* Footer */
 .footer-text {
 	font-size: small;
+}
+
+input[type=email] {
+	border-radius: 20px;
+	border: 1px solid #636363;
+	color: #a0d18c;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.footer-text {
+	font-size:x-small;
 }

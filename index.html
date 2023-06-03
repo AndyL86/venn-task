@@ -35,12 +35,16 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fas fa-file-upload"></i></a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link" href="#"><i class="fas fa-phone fa-flip-horizontal"></i></a>
+                                <div class="dropdown-phone">
+                                    <p>Main Office</p>
+                                    <p>0123 456 789</p>
+                                </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">
-                                    <div class="container navbar-border" onclick="myFunction(this)">
+                            <li class="nav-item navbar-border">
+                                <a class="nav-link disabled burger-bg">
+                                    <div class="container-nav" onclick="myFunction(this)">
                                         <div class="bar1"></div>
                                         <div class="bar2"></div>
                                         <div class="bar3"></div>
@@ -61,8 +65,8 @@
                                 <form class="form-inline justify-content-end">
                                     <input class="form-control mr-sm-2" type="search"
                                         placeholder="Search for your new role" aria-label="Search">
-                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
-                                            class="fas fa-search"></i></button>
+                                    <button class="btn my-2 my-sm-0" type="submit"><i
+                                            class="fas fa-search text-white"></i></button>
                                 </form>
                             </div>
                         </div>
@@ -91,8 +95,7 @@
                         Come and see why so many
                         companies and candidates Trust
                         Integro Partners</p>
-                    <a class="link-text text-white">About us<i
-                            class="fas fa-arrow-right text-white icon-border ml-2"></i></a>
+                    <a class="text-white">About us<i class="fas fa-arrow-right link-text icon-border ml-2"></i></a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -123,6 +126,7 @@
                         <div class="py-2 card-bg">
                             <div class="sub-border sub-select py-2">
                                 <a class="pl-4">Sub-Specialism 1</a>
+                                <i class="fas fa-arrow-right link-text icon-hover"></i>
                             </div>
                             <div class="sub-border sub-select py-2">
                                 <a class="pl-4">Sub-Specialism 2</a>
@@ -289,9 +293,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <a class="" href="#myCarousel" data-slide="prev"><i class="fas fa-arrow-left"></i></a>
-                            <a class="" href="#myCarousel" data-slide="next"><i class="fas fa-arrow-right"></i></a>
+                        <div class="carousel-indicators">
+                            <a class="mx-1" href="#myCarousel" data-slide="prev"><i class="fas fa-arrow-left"></i></a>
+                            <a class="mx-1" href="#myCarousel" data-slide="next"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -358,56 +362,61 @@
 
     <!-- Insights Section -->
     <section class="roles-bg">
-        <div class="row">
-            <div class="col-12 p-5 ml-5 mt-3">
-                <h2>Latest Insights</h2>
+        <div class="row p-5">
+            <div class="col-6">
+                <h3>Latest Roles</h3>
+            </div>
+            <div class="col-6 text-right my-auto">
                 <a class="link-text">All resources<i class="fas fa-arrow-right icon-border ml-2"></i></a>
             </div>
         </div>
-        <div class="card-deck p-5 mx-3">
-            <div class="card">
-                <img src="assets/images/marco-bianchetti.png" class="card-img-top card-img" alt="...">
-                <div class="card-body carousel-caption">
-                    <small class="text-muted orange-text">20th June</small>
-                    <h5 class="card-title">Want to become a
-                        self-employed
-                        Mortgage Broker?</h5>
-                    <p class="card-text text-white">Paragragh Lorem ipsum
-                        dolor sit amet, consectetur
-                        adipiscing elit. Aliquam
-                        gravida odio at semper
-                        semper…
-                        <a href="">Read more<i class="fas fa-arrow-right px-3"></i></a>
+        <hr>
+        <div class="row">
+            <div class="card-deck p-5 mx-3">
+                <div class="card">
+                    <img src="assets/images/marco-bianchetti.png" class="card-img-top card-img" alt="...">
+                    <div class="card-body carousel-caption">
+                        <small class="text-muted orange-text">20th June</small>
+                        <h5 class="card-title">Want to become a
+                            self-employed
+                            Mortgage Broker?</h5>
+                        <p class="card-text text-white">Paragragh Lorem ipsum
+                            dolor sit amet, consectetur
+                            adipiscing elit. Aliquam
+                            gravida odio at semper
+                            semper…
+                            <a href="">Read more<i class="fas fa-arrow-right px-3"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="assets/images/kent-banes.png" class="card-img-top card-img" alt="...">
-                <div class="card-body carousel-caption">
-                    <small class="text-muted orange-text">20th June</small>
-                    <h5 class="card-title">Counter Offers -
-                        Should I Stay, or
-                        Should I Go?!
-                    </h5>
-                    <p class="card-text text-white">Paragragh Lorem ipsum
-                        dolor sit amet, consectetur
-                        adipiscing elit. Aliquam
-                        gravida odio at semper
-                        semper…
-                        <a href="">Read more<i class="fas fa-arrow-right px-3"></i></a>
+                <div class="card">
+                    <img src="assets/images/kent-banes.png" class="card-img-top card-img" alt="...">
+                    <div class="card-body carousel-caption">
+                        <small class="text-muted orange-text">20th June</small>
+                        <h5 class="card-title">Counter Offers -
+                            Should I Stay, or
+                            Should I Go?!
+                        </h5>
+                        <p class="card-text text-white">Paragragh Lorem ipsum
+                            dolor sit amet, consectetur
+                            adipiscing elit. Aliquam
+                            gravida odio at semper
+                            semper…
+                            <a href="">Read more<i class="fas fa-arrow-right px-3"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="assets/images/pat-whelen.png" class="card-img-top card-img" alt="...">
-                <div class="card-body carousel-caption">
-                    <small class="text-muted orange-text">20th June</small>
-                    <h5 class="card-title">Have you ever been
-                        Jobfished?</h5>
-                    <p class="card-text text-white">Paragragh Lorem ipsum
-                        dolor sit amet, consectetur
-                        adipiscing elit. Aliquam
-                        gravida odio at semper
-                        semper…
-                        <a href="">Read more<i class="fas fa-arrow-right px-3"></i></a>
+                <div class="card">
+                    <img src="assets/images/pat-whelen.png" class="card-img-top card-img" alt="...">
+                    <div class="card-body carousel-caption">
+                        <small class="text-muted orange-text">20th June</small>
+                        <h5 class="card-title">Have you ever been
+                            Jobfished?</h5>
+                        <p class="card-text text-white">Paragragh Lorem ipsum
+                            dolor sit amet, consectetur
+                            adipiscing elit. Aliquam
+                            gravida odio at semper
+                            semper…
+                            <a href="">Read more<i class="fas fa-arrow-right px-3"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -483,7 +492,7 @@
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row footer-text pb-3">
             <div class="col-4 text-center">
                 <small>Copyright Integro Partners</small>
             </div>
