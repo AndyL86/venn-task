@@ -52,7 +52,7 @@ li {
 
 .burger-bg {
 	background-color: #F25D0E;
-	width: 33px;
+	width: 35px;
     height: 35px;
 	border-radius: 50%;
 	text-align: center;
@@ -92,7 +92,7 @@ li {
 	display: inline-block;
   }
   
-  .dropdown-phone {
+.dropdown-phone {
 	font-size: x-small;
 	display: none;
 	position: absolute;
@@ -101,11 +101,11 @@ li {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	padding: 12px 16px;
 	z-index: 1;
-  }
+}
   
-  .dropdown:hover .dropdown-phone {
+.dropdown:hover .dropdown-phone {
 	display: block;
-  }
+}
 
 /* Hero Section */
 .hero-bar {
@@ -241,18 +241,27 @@ input[type=search] {
 }
 
 /* Footer */
-.footer-text {
-	font-size: small;
-}
-
 input[type=email] {
 	border-radius: 20px;
 	border: 1px solid #636363;
-	color: #a0d18c;
 	height: 30px;
 	padding-left: 10px;
 }
 
 .footer-text {
 	font-size:x-small;
+}
+
+.footer-email {
+	display: inline-block;
+    width: 130px;
+    vertical-align: middle}
+
+.email-bg {
+	background-color: #293135;
+	width: 35px;
+    height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
 }
