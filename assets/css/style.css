@@ -250,6 +250,21 @@ input[type=search] {
 	margin-top: -100px;
 }
 
+.insights-card {
+	position: absolute;
+    right: 15%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.insights-date {
+	font-size: x-small;
+}
+
 /* Footer */
 input[type=email] {
 	border-radius: 20px;
@@ -274,4 +289,17 @@ input[type=email] {
 	border-radius: 50%;
 	text-align: center;
 	vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+	.insights-date {
+		padding-top: 0;
+	}
+
+	.insights-card {
+		font-size: smaller;
+		padding: 0;
+		right: 0;
+		left: 0;
+	}
 }
