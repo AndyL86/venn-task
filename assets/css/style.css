@@ -185,6 +185,7 @@ input[type=search] {
 }
 
 .icon-hover {
+	padding-left: 22rem;
 	color: #F7F4EF;
 }
 
@@ -215,12 +216,21 @@ input[type=search] {
 	margin: 0 80px 0;
 }
 
+.role-title {
+	text-decoration: underline;
+	font-weight: 900;
+}
+
 .roles-bg {
 	background-color: #F7F4EF;
 }
 
 .roles-bar {
 	border: 0.1px solid #333333;
+}
+
+.role-card {
+	font-size: 12px;
 }
 
 .carousel {
